@@ -56,7 +56,7 @@ getHomeR = do
             <ul>
                 <li>
                     <a href=@{Page1R}>
-                        Pagina 1 teste
+                        Pagina 1 
                 
                 <li>
                     <a href=@{Page2R}>
