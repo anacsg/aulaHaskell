@@ -58,7 +58,7 @@ getHomeR = do
                 color: white;
                 text-align: center;
                 min-height: 400px;
-                background-image: url("/static/img/megumin2.png");
+                background-image: url("/static/megumin2.png");
                 background-color: #C75055;
                 background-repeat: no-repeat;
                 background-position: center;
