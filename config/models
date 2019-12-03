@@ -13,6 +13,11 @@ Serie
     pais  Text
     deriving Show
 
+Ator 
+    nome  Text
+    ano   Day
+    deriving Show
+
 Atua
     serieid SerieId
     atorid  AtorId
