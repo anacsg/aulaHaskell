@@ -49,32 +49,52 @@ getHomeR = do
             }
         |]
         [whamlet|
-            <div>
-                <h1>
-                   animes newsssssss
             
-            <ul>
-                <li>
-                    <a href=@{Page1R}>
-                        Pagina 1 
-                
-                <li>
-                    <a href=@{Page2R}>
-                        Pagina 2
-                
-                $maybe nome <- sess
-                    <li>
-                        <div>
-                            Ola #{nome}
-                        <form method=post action=@{SairR}>
-                            <input type="submit" value="Sair">
-                $nothing
-                    <li>
-                        <div>
-                            convidado
+            <div .masthead>
+                <div .container>
+                    <div .row>
+                        <h1 .header>
+                            Figurinhas de Animes
+                        <h2>
+                            Inscreva-se na nossa newsletter:
+                        <a href="newsletter" .btn.btn-info.btn-lg>
+                            Clique aqui!
             
-            <img src=@{StaticR citeg_jpg}>
+            <div .container>
+                <!-- Starting
+                    ================================================== -->
+                <div .bs-docs-section>
+                    <div .row>
+                        <div .col-lg-12>
+                            <div .page-header>
+                                <h1 #start>Lista de Animes
             
-            <button class="btn btn-danger" onclick="ola()">
-                OK
+                                <p>
+                                    Para montar seu pacote personalizado de figurinhas,
+                                    basta fazer o download das imagens desejadas e utilizar um aplicativo de montagem de pacotes,
+                                    como o <a href="">XXXXX</a>.
+            
+                                <ul .list-group>
+            
+                                   
+            
+                <hr>
+            
+                <!-- Forms
+                    ================================================== -->
+                <div .bs-docs-section>
+                    <div .row>
+                        <div .col-lg-12>
+                            <div .page-header>
+                                <h1 #forms>Envie uma imagem!
+            
+                                <p>
+                                    Envie uma imagem e especifique o anime.
+            
+                   
+            
+                      
+            
+            
+               
         |]
