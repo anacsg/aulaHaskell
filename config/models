@@ -1,5 +1,3 @@
-
-
 Usuario 
     nome  Text
     email Text
@@ -22,4 +20,3 @@ Atua
     serieid SerieId
     atorid  AtorId
     ano     Int
-    
