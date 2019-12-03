@@ -16,10 +16,13 @@ import Text.Julius
 
 getEtcR :: Handler Html
 getEtcR = do 
-    (widget,enctype) <- generateFormPost formNewslettter 
     defaultLayout $ do 
-        msg <- getMessage
-        [whamlet|
+        -- remoto
+        addScriptRemote "https://code.jquery.com/jquery-3.4.1.min.js"
+        -- esta no projeto
+        addStylesheet (StaticR css_bootstrap_css)
+        sess <- lookupSession "_NOME"
+        toWidgetHead [whamlet|
             $maybe mensa <- msg
                 <div>
                     ^{mensa}

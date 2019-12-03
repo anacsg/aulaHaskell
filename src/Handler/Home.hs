@@ -179,7 +179,7 @@ getHomeR = do
                                         <a href="">Exemplo 2
                                     
                                     <li .list-group-item>
-                                        <a href="@{EtcR}">Etc...
+                                        <a href="">Etc...
                                     
             
                                    
