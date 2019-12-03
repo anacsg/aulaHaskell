@@ -28,6 +28,6 @@ getEtcR = do
                     ^{mensa}
             
             <h1>
-                bla bla bla
+                bla bla bla bla
                 
         |]
