@@ -17,3 +17,8 @@
 
 /atua             AtuaR    GET POST
 /elenco/#SerieId  ElencoR  GET
+
+
+/newsletter     NewsletterR    GET POST
+/listar  ListNewsletterR GET
+/newsletter/#NewsletterId/apagar ApagarEmailR POST

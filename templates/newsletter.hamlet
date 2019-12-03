@@ -1,0 +1,16 @@
+<table>
+    <thead>
+        <tr>
+            <th>
+                EMAIL
+            <th>
+    
+    <tbody>
+        $forall Entity pid newsletter <- newsletter
+            <tr>
+                <td>
+                    #{newsletterEmail newsletter}
+                
+                <td>
+                    <form method=post action=@{ApagarEmailR pid}>
+                        <input type="submit" value="X">
