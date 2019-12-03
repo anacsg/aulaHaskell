@@ -20,7 +20,7 @@
 
 
 /newsletter     NewsletterR    GET POST
-/listarNewsletter  ListNewsletterR GET
+/listar  ListNewsletterR GET
 /newsletter/#NewsletterId/apagar ApagarNewsletterR POST
 
 

@@ -28,6 +28,7 @@ instance Yesod App where
     
     isAuthorized HomeR _ = return Authorized
     isAuthorized NewsletterR _ = return Authorized
+    isAuthorized ListNewsletterR _ = return Authorized
     isAuthorized EntrarR _ = return Authorized
     isAuthorized UsuarioR _ = return Authorized 
     isAuthorized AtorR _ = return Authorized
