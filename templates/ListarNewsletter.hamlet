@@ -12,5 +12,5 @@
                     #{newsletterEmail newsletter}
                 
                 <td>
-                    <form method=post action=@{ApagarEmailR pid}>
+                    <form method=post action=@{ApagarNewsletterR pid}>
                         <input type="submit" value="X">
