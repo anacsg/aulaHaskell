@@ -22,7 +22,7 @@ getEtcR = do
         -- esta no projeto
         addStylesheet (StaticR css_bootstrap_css)
         sess <- lookupSession "_NOME"
-        toWidgetHead [whamlet|
+        [whamlet|
             
             <h1>
                 bla bla bla bla
