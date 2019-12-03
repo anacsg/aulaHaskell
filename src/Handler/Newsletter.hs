@@ -53,12 +53,12 @@ postNewsletterR = do
 getListNewsletterR :: Handler Html 
 getListNewsletterR = do 
     -- select * from NewsletterR order by produto.nome
-    newsletter <- runDB $ selectList [] [Asc NewsletterREmail]
+    newsletter <- runDB $ selectList [] [Asc NewsletterEmail]
     defaultLayout $ do 
-        $(whamletFile "templates/newsletter.hamlet")
+        $(whamletFile "templates/ListarNewsletter.hamlet")
 
-postApagarEmailR :: EmailId -> Handler Html
-postApagarEmailR pid = do 
+postApagarNewsletterR :: EmailId -> Handler Html
+postNewsletterR pid = do 
     _ <- runDB $ get404 pid
     runDB $ delete pid
-    redirect ListEmailR
+    redirect ListNewsletterR

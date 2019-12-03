@@ -22,6 +22,5 @@ Atua
     ano     Int
 
 Newsletter 
-    emailid EmailId
     email  Text
     deriving Show
