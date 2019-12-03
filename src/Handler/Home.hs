@@ -58,7 +58,7 @@ getHomeR = do
                 color: white;
                 text-align: center;
                 min-height: 400px;
-                background-image: url("/static/clouds.png");
+                background-image: url("/static/clouds.jpg");
                 background-color: #C75055;
                 background-repeat: no-repeat;
                 background-position: center;
