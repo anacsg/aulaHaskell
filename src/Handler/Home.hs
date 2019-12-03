@@ -51,7 +51,7 @@ getHomeR = do
         [whamlet|
             <div>
                 <h1>
-                   animes news
+                   animes newsssssss
             
             <ul>
                 <li>
