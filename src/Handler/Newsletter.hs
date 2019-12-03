@@ -45,7 +45,7 @@ postNewsletterR = do
             runDB $ insert newsletter
             setMessage [shamlet|
                 <h2>
-                    EMAIL INSERIDO COM SUCESSO
+                     INSERIDO COM SUCESSO
             |]
             redirect NewsletterR
         _ -> redirect HomeR
