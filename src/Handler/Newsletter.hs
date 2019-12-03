@@ -57,7 +57,7 @@ getListNewsletterR = do
     defaultLayout $ do 
         $(whamletFile "templates/ListarNewsletter.hamlet")
 
-postApagarNewsletterR :: EmailId -> Handler Html
+postApagarNewsletterR :: NewsletterId -> Handler Html
 postNewsletterR pid = do 
     _ <- runDB $ get404 pid
     runDB $ delete pid
