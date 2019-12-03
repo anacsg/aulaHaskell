@@ -179,7 +179,7 @@ getHomeR = do
                                     <a href="">Naruto
                                     
                                     <li .list-group-item>
-                                    <a href="">Etc
+                                    <a href="">Etc...
                                     
             
                                    
