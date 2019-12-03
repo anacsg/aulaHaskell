@@ -23,3 +23,7 @@ Atua
     atorid  AtorId
     ano     Int
     
+Email
+    nome  Text
+    ano   Day
+    deriving Show
