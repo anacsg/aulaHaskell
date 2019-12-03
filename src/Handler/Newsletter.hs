@@ -14,7 +14,7 @@ import Database.Persist.Postgresql
 
 -- renderDivs
 formEmail :: Form Email 
-formAtor = renderBootstrap $ Email
+formEmail = renderBootstrap $ Email
     <$> areq textField "Nome: " Nothing
     <*> areq dayField "Nasc: " Nothing
 
