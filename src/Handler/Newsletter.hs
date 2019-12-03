@@ -58,7 +58,7 @@ getListNewsletterR = do
         $(whamletFile "templates/ListarNewsletter.hamlet")
 
 postApagarNewsletterR :: NewsletterId -> Handler Html
-postNewsletterR pid = do 
+postApagarNewsletterR pid = do 
     _ <- runDB $ get404 pid
     runDB $ delete pid
     redirect ListNewsletterR
