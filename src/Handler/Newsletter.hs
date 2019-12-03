@@ -17,6 +17,7 @@ formEmail :: Form Email
 formEmail = renderBootstrap $ Email
     <$> areq textField "Nome: " Nothing
     <*> areq dayField "Nasc: " Nothing
+    <*> areq dayField "Teste: " Nothing
 
 getNewslR :: Handler Html
 getNewslR = do 
