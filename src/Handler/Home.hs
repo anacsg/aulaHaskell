@@ -151,9 +151,8 @@ getHomeR = do
                         <h1 .header>
                             Figurinhas de Animes
                         <h2>
-                            Inscreva-se na nossa newsletter:
                         <a href="newsletter" .btn.btn-info.btn-lg>
-                            Clique aqui!
+                            Inscreva-se na nossa newsletter!
             
             <div .container>
                 <!-- Starting
@@ -162,33 +161,30 @@ getHomeR = do
                     <div .row>
                         <div .col-lg-12>
                             <div .page-header>
-                                <h1 #start>Lista de Animes
-            
-                                <p>
-                                    Para montar seu pacote personalizado de figurinhas,
-                                    basta fazer o download das imagens desejadas e utilizar um aplicativo de montagem de pacotes,
+                            
+                                 <p>
+                                    Monte seu pacote personalizado de figurinhas!
+                                    Basta fazer o download das imagens desejadas e utilizar um aplicativo de montagem de pacotes,
                                     como o <a href="">XXXXX</a>.
+                            
+                            
+                                <h1 #start>Índice
             
                                 <ul .list-group>
+
+                                    <li .list-group-item>
+                                    <a href="">KonoSuba
+                                    
+                                    <li .list-group-item>
+                                    <a href="">Naruto
+                                    
+                                    <li .list-group-item>
+                                    <a href="">Etc
+                                    
             
                                    
             
                 <hr>
-            
-                <!-- Forms
-                    ================================================== -->
-                <div .bs-docs-section>
-                    <div .row>
-                        <div .col-lg-12>
-                            <div .page-header>
-                                <h1 #forms>Envie uma imagem!
-            
-                                <p>
-                                    Envie uma imagem e especifique o anime.
-            
-                   
-            
-                      
             
             
                
