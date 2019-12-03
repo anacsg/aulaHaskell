@@ -23,9 +23,6 @@ getEtcR = do
         addStylesheet (StaticR css_bootstrap_css)
         sess <- lookupSession "_NOME"
         toWidgetHead [whamlet|
-            $maybe mensa <- msg
-                <div>
-                    ^{mensa}
             
             <h1>
                 bla bla bla bla
