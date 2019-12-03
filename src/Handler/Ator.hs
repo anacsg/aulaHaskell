@@ -4,7 +4,7 @@
 {-# LANGUAGE QuasiQuotes #-}
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE TypeFamilies #-}
-module Handler.Newsletter where
+module Handler.Ator where
 
 import Import
 import Text.Lucius
@@ -13,13 +13,14 @@ import Text.Julius
 import Database.Persist.Postgresql
 
 -- renderDivs
-formEmail :: Form Email 
-formEmail = renderBootstrap $ Email
+formAtor :: Form Ator 
+formAtor = renderBootstrap $ Ator
     <$> areq textField "Nome: " Nothing
+    <*> areq dayField "Nasc: " Nothing
 
-getNewslR :: Handler Html
-getNewslR = do 
-    (widget,_) <- generateFormPost formEmail
+getAtorR :: Handler Html
+getAtorR = do 
+    (widget,_) <- generateFormPost formAtor
     msg <- getMessage
     defaultLayout $ 
         [whamlet|
@@ -28,24 +29,24 @@ getNewslR = do
                     ^{mensa}
             
             <h1>
-                CADASTRO DE EMAIL
+                CADASTRO DE ATOR
             
-            <form method=post action=@{NewslR}>
+            <form method=post action=@{AtorR}>
                 ^{widget}
                 <input type="submit" value="Cadastrar">
         |]
 
-postNewslR :: Handler Html
-postNewslR = do 
-    ((result,_),_) <- runFormPost formEmail
+postAtorR :: Handler Html
+postAtorR = do 
+    ((result,_),_) <- runFormPost formAtor
     case result of 
-        FormSuccess email -> do 
-            runDB $ insert email 
+        FormSuccess ator -> do 
+            runDB $ insert ator 
             setMessage [shamlet|
                 <div>
-                    EMAIL INCLUIDO
+                    ATOR INCLUIDO
             |]
-            redirect NewslR
+            redirect AtorR
         _ -> redirect HomeR
 
 
@@ -53,4 +54,3 @@ postNewslR = do
 
 
 
--- teste teste teste
