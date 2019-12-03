@@ -165,8 +165,8 @@ getHomeR = do
                                 <h1 #start>Lista de Animes
             
                                 <p>
-                                    Monte seu pacote personalizado de figurinhas!
-                                    Basta fazer o download das imagens desejadas e utilizar um aplicativo de montagem de pacotes,
+                                    Para montar seu pacote personalizado de figurinhas,
+                                    basta fazer o download das imagens desejadas e utilizar um aplicativo de montagem de pacotes,
                                     como o <a href="">XXXXX</a>.
             
                                 <ul .list-group>
