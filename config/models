@@ -26,4 +26,5 @@ Atua
 Email
     nome  Text
     ano   Day
+    teste Text
     deriving Show
