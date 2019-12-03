@@ -20,3 +20,7 @@ Atua
     serieid SerieId
     atorid  AtorId
     ano     Int
+
+Newsletter 
+    email  Text
+    deriving Show
