@@ -23,5 +23,6 @@
 /listar  ListNewsletterR GET
 /newsletter/#NewsletterId/apagar ApagarNewsletterR POST
 
+/etc EtcR GET
 
 

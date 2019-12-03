@@ -149,7 +149,7 @@ getHomeR = do
                 <div .container>
                     <div .row>
                         <h1 .header>
-                            Figurinhas de Animes
+                            Figurinhas
                         <h2>
                         <a href="newsletter" .btn.btn-info.btn-lg>
                             Inscreva-se na nossa newsletter!
@@ -173,13 +173,13 @@ getHomeR = do
                                 <ul .list-group>
 
                                     <li .list-group-item>
-                                        <a href="">KonoSuba
+                                        <a href="">Exemplo 1
                                     
                                     <li .list-group-item>
-                                        <a href="">Naruto
+                                        <a href="">Exemplo 2
                                     
                                     <li .list-group-item>
-                                        <a href="">Etc...
+                                        <a href="@{EtcR}">Etc...
                                     
             
                                    
