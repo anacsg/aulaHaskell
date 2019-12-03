@@ -13,7 +13,7 @@ import Text.Lucius
 import Text.Julius
 
 -- renderDivs
-formNewslettter :: Form Produto 
+formNewslettter :: Form Newsletter 
 formNewslettter = renderBootstrap $ Newsletter 
     <$> areq textField "Email: " Nothing
     

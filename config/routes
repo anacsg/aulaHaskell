@@ -21,4 +21,4 @@
 
 /newsletter     NewsletterR    GET POST
 /listar  ListNewsletterR GET
-/newsletter/#NewsletterId/apagar ApagarEmailR POST
+/newsletter/#EmailId/apagar ApagarEmailR POST
