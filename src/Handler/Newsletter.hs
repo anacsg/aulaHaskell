@@ -31,7 +31,7 @@ getNewslR = do
             <h1>
                 CADASTRO DE EMAIL
             
-            <form method=post action=@{AtorR}>
+            <form method=post action=@{NewslR}>
                 ^{widget}
                 <input type="submit" value="Cadastrar">
         |]
@@ -40,7 +40,7 @@ postNewslR :: Handler Html
 postNewslR = do 
     ((result,_),_) <- runFormPost formEmail
     case result of 
-        FormSuccess ator -> do 
+        FormSuccess email -> do 
             runDB $ insert email 
             setMessage [shamlet|
                 <div>
