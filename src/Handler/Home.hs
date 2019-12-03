@@ -173,13 +173,13 @@ getHomeR = do
                                 <ul .list-group>
 
                                     <li .list-group-item>
-                                    <a href="">KonoSuba
+                                        <a href="">KonoSuba
                                     
                                     <li .list-group-item>
-                                    <a href="">Naruto
+                                        <a href="">Naruto
                                     
                                     <li .list-group-item>
-                                    <a href="">Etc...
+                                        <a href="">Etc...
                                     
             
                                    
