@@ -12,7 +12,7 @@
 /sair     SairR    POST
 /admin    AdminR   GET
 
-/ator     AtorR    GET POST
+/newsletter     NewslR    GET POST
 /serie    SerieR   GET POST
 
 /atua             AtuaR    GET POST
