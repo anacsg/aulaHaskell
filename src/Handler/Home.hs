@@ -151,7 +151,7 @@ getHomeR = do
                         <h1 .header>
                             Figurinhas de Animes
                         <h2>
-                            Inscreva-se na nossa newsletter:
+                            Inscreva-se na nossa newsletter teste:
                         <a href="newsletter" .btn.btn-info.btn-lg>
                             Clique aqui!
             
