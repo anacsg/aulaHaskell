@@ -51,7 +51,7 @@ getHomeR = do
         [whamlet|
             <div>
                 <h1>
-                    OLA MUNDO
+                   animes news
             
             <ul>
                 <li>
