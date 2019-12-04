@@ -39,33 +39,20 @@ getEtcR = do
         |]
         [whamlet|
 
-                                 <p>
-                                        <h1>Etc
-                                        
-                                        <p><p>
-                                              
-                                                <img src="/static/figurinhas/etc/e1.png" width="75" height="75">
-                                              
-                                                <img src="/static/figurinhas/etc/e2.png" width="75" height="75">
-                                            
-                                                <img src="/static/figurinhas/etc/e3.png" width="75" height="75">
-                                            
-                                                <img src="/static/figurinhas/etc/e4.png" width="75" height="75">
-                                                
-                                                <img src="/static/figurinhas/etc/e5.png" width="75" height="75">
-                                                
-                                                <img src="/static/figurinhas/etc/e6.png" width="75" height="75">
-                                                
-                                                <img src="/static/figurinhas/etc/e7.png" width="75" height="75">
-                                                
-                                                <img src="/static/figurinhas/etc/e8.png" width="75" height="75">
-                                                
-
-
-                                        
-                                  <p><p><p><p><p><hr>
-                     <a href="@{HomeR}">Voltar      
-                                        
-                                        
+            <p>
+            <h1>Etc
+            <p><p>
+            <div class="col">
+                <img src="/static/figurinhas/etc/e1.png" width="75" height="75">
+                <img src="/static/figurinhas/etc/e2.png" width="75" height="75">
+                <img src="/static/figurinhas/etc/e3.png" width="75" height="75">
+                <img src="/static/figurinhas/etc/e4.png" width="75" height="75">
+            <div class="col">
+                <img src="/static/figurinhas/etc/e5.png" width="75" height="75">
+                <img src="/static/figurinhas/etc/e6.png" width="75" height="75">
+                <img src="/static/figurinhas/etc/e7.png" width="75" height="75">
+                <img src="/static/figurinhas/etc/e8.png" width="75" height="75">
+            <p><p><p><p><p><hr>
+            <a href="@{HomeR}">Voltar                     
                 
         |]
