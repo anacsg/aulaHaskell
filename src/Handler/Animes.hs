@@ -63,7 +63,7 @@ getAnimesR = do
                 <img src="/static/figurinhas/animes/an14.png" width="75" height="75">
                 <img src="/static/figurinhas/animes/an15.png" width="75" height="75">
             
-            <p><p><p><p><p><hr>
+            <p><p><p><p><hr>
             <a href="@{HomeR}">Voltar
                         
         |]
