@@ -43,7 +43,7 @@ getAnimesR = do
                                         <h1>Animes
                                         
                                         <div class="container">
-                                            <div class="row">
+                                            
                                                 <div class="col">
                                                     <img src="/static/figurinhas/animes/an1.png" width="75" height="75">
                                                     <img src="/static/figurinhas/animes/an2.png" width="75" height="75">
