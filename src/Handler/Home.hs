@@ -34,10 +34,11 @@ getHomeR = do
             .navbar-default .navbar-nav > .active > a {
                 background-color: transparent;
                 border-bottom: 1px solid white;
+                min-height: 50px;
             }
             
             .navbar-nav {
-                padding-bottom: 1em;
+                padding-bottom: 0.5em;
             }
             
             .masthead {

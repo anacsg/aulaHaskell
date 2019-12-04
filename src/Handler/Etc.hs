@@ -66,6 +66,6 @@ getEtcR = do
                                         <h1 #start>Etc
                                         
                                         <img src="/static/figurinhas/Naruto.png" width="75" height="75"> 
-                                        <img src="/static/figurinhas/fig2.png" width="75" height="75"> 
+                                        <img src="/static/figurinhas/fig1.png" width="75" height="75"> 
                 
         |]
