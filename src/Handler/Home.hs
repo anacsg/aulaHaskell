@@ -34,7 +34,7 @@ getHomeR = do
         addStylesheet (StaticR css_bootstrap_css)
         sess <- lookupSession "_NOME"
         toWidgetHead [julius|
-            window.location.href="https://animenews.ml"
+            --window.location.href="https://animenews.ml"
         |]
         toWidgetHead [lucius|
             .masthead,
