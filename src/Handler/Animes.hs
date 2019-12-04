@@ -32,7 +32,7 @@ getAnimesR = do
             
             
             .column img {
-              width: 100%;
+              width: 10%;
               align-self: center;
             }
             
