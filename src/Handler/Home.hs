@@ -32,7 +32,7 @@ getHomeR = do
             
             .navbar-default .navbar-nav > .active > a {
                 background-color: transparent;
-                border-bottom: 2px solid white;
+                border-bottom: 1px solid white;
             }
             
             .navbar-nav {
@@ -43,7 +43,7 @@ getHomeR = do
                 margin-top: -21px;
                 color: white;
                 text-align: center;
-                min-height: 400px;
+                min-height: 350px;
                 background-image: url("/static/clouds.jpg");
                 background-color: #C75055;
                 background-repeat: no-repeat;
