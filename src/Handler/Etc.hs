@@ -62,12 +62,7 @@ getEtcR = do
             }
         |]
         [whamlet|
-            <div .container>
-                <div .bs-docs-section>
-                    <div .row>
-                        <div .col-lg-12>
-                            <div .page-header>
-                            
+
                                  <p>
                                         <h1 #start>Etc
                                         
