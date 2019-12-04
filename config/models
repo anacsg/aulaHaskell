@@ -11,17 +11,7 @@ Serie
     pais  Text
     deriving Show
 
-Ator 
-    nome  Text
-    ano   Day
-    deriving Show
-
-Atua
-    serieid SerieId
-    atorid  AtorId
-    ano     Int
-
 Newsletter 
     email  Text
-    UniqueEmailIx email
+    UniqueEmail email
     deriving Show

@@ -41,9 +41,7 @@ import Handler.Common
 import Handler.Home
 import Handler.Usuario
 import Handler.Login
-import Handler.Ator
 import Handler.Serie
-import Handler.Atua
 import Handler.Newsletter
 import Handler.Etc
 
