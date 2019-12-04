@@ -42,26 +42,26 @@ getEtcR = do
                                  <p>
                                         <h1>Etc
                                         
-                                         <div class="row">
-                                              <div class="column">
+
+                                              
                                                 <img src="/static/figurinhas/etc/e1.png" width="75" height="75">
-                                              <div class="column">
+                                              
                                                 <img src="/static/figurinhas/etc/e2.png" width="75" height="75">
-                                            <div class="column">
+                                            
                                                 <img src="/static/figurinhas/etc/e3.png" width="75" height="75">
-                                            <div class="column">
+                                            
                                                 <img src="/static/figurinhas/etc/e4.png" width="75" height="75">
-                                                <div class="column">
+                                                
                                                 <img src="/static/figurinhas/etc/e5.png" width="75" height="75">
-                                                <div class="column">
+                                                
                                                 <img src="/static/figurinhas/etc/e6.png" width="75" height="75">
-                                                <div class="column">
+                                                
                                                 <img src="/static/figurinhas/etc/e7.png" width="75" height="75">
-                                                <div class="column">
+                                                
                                                 <img src="/static/figurinhas/etc/e8.png" width="75" height="75">
-                                                <div class="column">
+                                                
                                                 <img src="/static/figurinhas/etc/e9.png" width="75" height="75">
-                                                <div class="column">
+                                                
                                                 <img src="/static/figurinhas/etc/e10.png" width="75" height="75">
 
                                         
