@@ -123,20 +123,20 @@ getHomeR = do
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
             
                 <div #navbar .collapse.navbar-collapse>
                     <ul .nav.navbar-nav>
                         <li>
                             <a href="@{HomeR}">Home
-            
+                            <a href="@{EntrarR}" align="right">Login
+                            
             
             
             <div .masthead>
                 <div .container>
                     <div .row>
                         <h1 .header>
-                            Figurinhas
+                            Figurinhas de Animes
                         <h2>
                         <a href="newsletter" .btn.btn-info.btn-lg>
                             Inscreva-se na nossa newsletter!
