@@ -23,4 +23,5 @@ Atua
 
 Newsletter 
     email  Text
+    UniqueEmailIx email
     deriving Show
