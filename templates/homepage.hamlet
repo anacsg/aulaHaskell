@@ -10,22 +10,18 @@
 
         <div #navbar .collapse.navbar-collapse>
             <ul .nav.navbar-nav>
-                $forall MenuItem label route _ <- navbarLeftFilteredMenuItems
                     <li :Just route == mcurrentRoute:.active>
                         <a href="@{route}">#{label}
 
             <ul .nav.navbar-nav.navbar-right>
-                $forall MenuItem label route _ <- navbarRightFilteredMenuItems
                     <li :Just route == mcurrentRoute:.active>
                         <a href="@{route}">#{label}
 
             <ul .nav.navbar-nav.navbar-left>
-                $forall MenuItem label route _ <- navbarLeftFilteredMenuItems
                     <li :Just route == mcurrentRoute:.active>
                         <a href="@{SobreR}">Sobre
 
             <ul .nav.navbar-nav.navbar-left>
-                            $forall MenuItem label route _ <- navbarLeftFilteredMenuItems
                                 <li :Just route == mcurrentRoute:.active>
                                     <a href="@{NewsR}">News
 
