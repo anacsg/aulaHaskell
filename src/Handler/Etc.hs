@@ -34,12 +34,9 @@ getEtcR = do
               flex: 25%;
               max-width: 10%;
               padding: 0 4px;
-              align-self: center;
             }
             
             .column img {
-              margin-top: 7.5px;
-              vertical-align: middle;
               width: 100%;
               align-self: center;
             }
