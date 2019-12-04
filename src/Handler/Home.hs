@@ -134,10 +134,10 @@ getHomeR = do
                                 <ul .list-group>
 
                                     <li .list-group-item>
-                                        <a href="@{Animes}">Animes
+                                        <a href="@{}">Animes
                                     
                                     <li .list-group-item>
-                                        <a href="@{LeagueR}">League of Legends
+                                        <a href="@{}">League of Legends
                                     
                                     <li .list-group-item>
                                         <a href="@{EtcR}">Etc
