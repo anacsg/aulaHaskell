@@ -30,9 +30,14 @@ getAnimesR = do
               padding: 0 4px;
             }
             
+            .column {
+              float: left;
+              width: 10%;
+              padding: 5px;
+            }
             
             .column img {
-              width: 10%;
+              width: 100%;
               align-self: center;
             }
             
