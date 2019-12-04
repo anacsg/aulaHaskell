@@ -39,26 +39,27 @@ getLeagueR = do
         |]
         [whamlet|
 
-    <p>
-    <h1>League of Legends
-    <p><p>
-    <div class="col">
-      <img src="/static/figurinhas/league/lol1.png" width="75" height="75">
-      <img src="/static/figurinhas/league/lol2.png" width="75" height="75">
-      <img src="/static/figurinhas/league/lol3.png" width="75" height="75">
-      <img src="/static/figurinhas/league/lol5.png" width="75" height="75">
-    <div class="col">
-      <img src="/static/figurinhas/league/lol6.png" width="75" height="75">
-      <img src="/static/figurinhas/league/lol7.png" width="75" height="75">
-      <img src="/static/figurinhas/league/lol9.png" width="75" height="75">
-      <img src="/static/figurinhas/league/lol10.gif" width="75" height="75">
-      <img src="/static/figurinhas/league/lol11.png" width="75" height="75">
-    <div class="col">
-      <img src="/static/figurinhas/league/lol12.png" width="75" height="75">
-      <img src="/static/figurinhas/league/lol13.png" width="75" height="75">
-      <img src="/static/figurinhas/league/lol14.png" width="75" height="75">
-      <img src="/static/figurinhas/league/lol15.png" width="75" height="75">
-    <p><p><p><p><p><hr>
-    <a href="@{HomeR}">Voltar                            
+    <div class="container">
+      <p>
+      <h1>League of Legends
+      <p><p>
+      <div class="col">
+        <img src="/static/figurinhas/league/lol1.png" width="75" height="75">
+        <img src="/static/figurinhas/league/lol2.png" width="75" height="75">
+        <img src="/static/figurinhas/league/lol3.png" width="75" height="75">
+        <img src="/static/figurinhas/league/lol5.png" width="75" height="75">
+      <div class="col">
+        <img src="/static/figurinhas/league/lol6.png" width="75" height="75">
+        <img src="/static/figurinhas/league/lol7.png" width="75" height="75">
+        <img src="/static/figurinhas/league/lol9.png" width="75" height="75">
+        <img src="/static/figurinhas/league/lol10.gif" width="75" height="75">
+        <img src="/static/figurinhas/league/lol11.png" width="75" height="75">
+      <div class="col">
+        <img src="/static/figurinhas/league/lol12.png" width="75" height="75">
+        <img src="/static/figurinhas/league/lol13.png" width="75" height="75">
+        <img src="/static/figurinhas/league/lol14.png" width="75" height="75">
+        <img src="/static/figurinhas/league/lol15.png" width="75" height="75">
+      <p><p><p><p><p><hr>
+      <a href="@{HomeR}">Voltar                            
                 
         |]

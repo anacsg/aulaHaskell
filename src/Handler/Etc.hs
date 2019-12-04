@@ -38,7 +38,7 @@ getEtcR = do
             
         |]
         [whamlet|
-
+        <div class="container">
             <p>
             <h1>Etc
             <p><p>
