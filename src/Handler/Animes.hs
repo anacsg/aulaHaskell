@@ -42,7 +42,6 @@ getAnimesR = do
                                  <p>
                                         <h1>Animes
                                         
-                                        <div class="row">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-sm">
