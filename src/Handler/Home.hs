@@ -31,16 +31,6 @@ getHomeR = do
                 min-height: 50px;
             }
             
-            .navbar-default .navbar-nav > .active > a {
-                background-color: transparent;
-                border-bottom: 1px solid white;
-                min-height: 50px;
-            }
-            
-            .navbar-nav {
-                padding-bottom: 0.5em;
-            }
-            
             .masthead {
                 margin-top: -21px;
                 color: white;
@@ -116,22 +106,6 @@ getHomeR = do
             }
         |]
         [whamlet|
-            <nav .navbar.navbar-default.navbar-static-top>
-                <div .container>
-                    <div .navbar-header>
-                        <button type="button" .navbar-toggle.collapsed data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-            
-                <div #navbar .collapse.navbar-collapse>
-                    <ul .nav.navbar-nav>
-                        <li>
-                            <a href="@{HomeR}">Home
-                            <a href="@{EntrarR}" align="right">Login
-                            
-            
-            
             <div .masthead>
                 <div .container>
                     <div .row>
@@ -158,13 +132,13 @@ getHomeR = do
                                 <ul .list-group>
 
                                     <li .list-group-item>
-                                        <a href="">Exemplo 1
+                                        <a href="">Animes
                                     
                                     <li .list-group-item>
-                                        <a href="">Exemplo 2
+                                        <a href="">League of Legends
                                     
                                     <li .list-group-item>
-                                        <a href="@{EtcR}">Etc...
+                                        <a href="@{EtcR}">Etc
                                     
             
                                    

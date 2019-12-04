@@ -23,6 +23,12 @@ getEtcR = do
         addStylesheet (StaticR css_bootstrap_css)
         sess <- lookupSession "_NOME"
         toWidgetHead [lucius|
+        
+            .column {
+              float: left;
+              width: 5%;
+              padding: 5px;
+            }
             /* Common styles for all types */
             .bs-callout {
               padding: 20px;
@@ -65,7 +71,18 @@ getEtcR = do
                                  <p>
                                         <h1 #start>Etc
                                         
-                                        <img src="/static/figurinhas/Naruto.png" width="75" height="75"> 
-                                        <img src="/static/figurinhas/fig1.png" width="75" height="75"> 
+                                        
+                                         <div class="row">
+                                              <div class="column">
+                                                <img src="/static/figurinhas/Naruto.png" alt="Naruto" width="75" height="75">
+                                              </div>
+                                              <div class="column">
+                                                <img src="/static/figurinhas/fig1.png" alt="teste" width="75" height="75">
+                                              </div>
+                                            </div> 
+                                        
+                                        
+                                        
+                                        
                 
         |]
