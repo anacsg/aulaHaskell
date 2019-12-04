@@ -30,11 +30,6 @@ getAnimesR = do
               padding: 0 4px;
             }
             
-            .column {
-              float: left;
-              width: 10%;
-              padding: 5px;
-            }
             
             .column img {
               width: 100%;
@@ -58,6 +53,7 @@ getAnimesR = do
                                                 <img src="/static/figurinhas/animes/an4.png" width="75" height="75">
                                                 <div class="column">
                                                 <img src="/static/figurinhas/animes/an5.png" width="75" height="75">
+                                            <div class="row">
                                                 <div class="column">
                                                 <img src="/static/figurinhas/animes/an6.png" width="75" height="75">
                                                 <div class="column">
@@ -68,6 +64,7 @@ getAnimesR = do
                                                 <img src="/static/figurinhas/animes/an9.png" width="75" height="75">
                                                 <div class="column">
                                                 <img src="/static/figurinhas/animes/an10.png" width="75" height="75">
+                                            <div class="row">
                                                 <div class="column">
                                                 <img src="/static/figurinhas/animes/an11.png" width="75" height="75">
                                                 <div class="column">
