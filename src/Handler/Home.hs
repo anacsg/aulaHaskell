@@ -123,6 +123,13 @@ getHomeR = do
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
             
+                <div #navbar .collapse.navbar-collapse>
+                    <ul .nav.navbar-nav>
+                        <li>
+                            <a href="@{HomeR}">Home
+            
+            
+            
             <div .masthead>
                 <div .container>
                     <div .row>
