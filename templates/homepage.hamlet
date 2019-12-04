@@ -17,13 +17,6 @@
                     <li :Just route == mcurrentRoute:.active>
                         <a href="@{route}">#{label}
 
-            <ul .nav.navbar-nav.navbar-left>
-                    <li :Just route == mcurrentRoute:.active>
-                        <a href="@{SobreR}">Sobre
-
-            <ul .nav.navbar-nav.navbar-left>
-                                <li :Just route == mcurrentRoute:.active>
-                                    <a href="@{NewsR}">News
 
 
 
@@ -67,9 +60,3 @@
                                    
             
                 <hr>
-            
-<!-- Footer -->
-<footer .footer>
-    <div .container>
-        <p .text-muted>
-            #{appCopyright $ appSettings master}
