@@ -42,7 +42,7 @@ getEtcR = do
                                  <p>
                                         <h1>Etc
                                         
-
+                                        <p><p>
                                               
                                                 <img src="/static/figurinhas/etc/e1.png" width="75" height="75">
                                               

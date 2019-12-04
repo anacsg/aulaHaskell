@@ -42,7 +42,7 @@ getLeagueR = do
                                  <p>
                                         <h1>League of Legends
                                         
-                                         
+                                         <p><p>
                                               
                                                 <img src="/static/figurinhas/league/lol1.png" width="75" height="75">
                                               
