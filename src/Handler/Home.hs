@@ -101,6 +101,10 @@ getHomeR = do
               font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
             }
             
+            .login {
+                float: right;
+            }
+            
             #message {
                 margin-bottom: 40px;
             }
@@ -124,7 +128,7 @@ getHomeR = do
                                  <p>
                                     Monte seu pacote personalizado de figurinhas!
                                     Basta fazer o download das imagens desejadas e utilizar um aplicativo de montagem de pacotes,
-                                    como o <a href="https://play.google.com/store/apps/details?id=stickermaker.android.stickermaker&hl=pt_BR">Sticker Studio</a>.
+                                    como o <a href="https://play.google.com/store/apps/details?id=com.easycodes.stickercreator">WAStickerApps</a>.
 
             
                                 <ul .list-group>
@@ -139,8 +143,8 @@ getHomeR = do
                                         <a href="@{EtcR}">Etc
                                     
             
-                                   <p>
-                                   <a href="@{EntrarR}">Login
+                                   <p><p><p><p><p><hr>
+                                   <a href="@{EntrarR}" class="login">Login
             
                 <hr>
             
