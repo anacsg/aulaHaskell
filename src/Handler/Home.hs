@@ -110,9 +110,9 @@ getHomeR = do
                 <div .container>
                     <div .row>
                         <h1 .header>
-                            Figurinhas de Animes
+                            Figurinhas!
                         <h2>
-                        <a href="newsletter" .btn.btn-info.btn-lg>
+                        <a href="@{NewsletterR}" .btn.btn-info.btn-lg>
                             Inscreva-se na nossa newsletter!
             
             <div .container>
@@ -124,10 +124,8 @@ getHomeR = do
                                  <p>
                                     Monte seu pacote personalizado de figurinhas!
                                     Basta fazer o download das imagens desejadas e utilizar um aplicativo de montagem de pacotes,
-                                    como o <a href="">XXXXX</a>.
-                            
-                            
-                                <h1 #start>Índice
+                                    como o <a href="https://play.google.com/store/apps/details?id=stickermaker.android.stickermaker&hl=pt_BR">Sticker Studio</a>.
+
             
                                 <ul .list-group>
 
@@ -141,7 +139,8 @@ getHomeR = do
                                         <a href="@{EtcR}">Etc
                                     
             
-                                   
+                                   <p>
+                                   <a href="@{EntrarR}">Login
             
                 <hr>
             
