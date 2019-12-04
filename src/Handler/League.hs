@@ -58,11 +58,10 @@ getLeagueR = do
                                               
                                                 <img src="/static/figurinhas/league/lol7.png" width="75" height="75">
                                               
-                                                <img src="/static/figurinhas/league/lol8.png" width="75" height="75">
                                               
                                                 <img src="/static/figurinhas/league/lol9.png" width="75" height="75">
                                               
-                                                <img src="/static/figurinhas/league/lol10.png" width="75" height="75">
+                                                <img src="/static/figurinhas/league/lol10.gif" width="75" height="75">
                                                 
                                                 <img src="/static/figurinhas/league/lol11.png" width="75" height="75">
                                                 

@@ -60,9 +60,7 @@ getEtcR = do
                                                 
                                                 <img src="/static/figurinhas/etc/e8.png" width="75" height="75">
                                                 
-                                                <img src="/static/figurinhas/etc/e9.png" width="75" height="75">
-                                                
-                                                <img src="/static/figurinhas/etc/e10.png" width="75" height="75">
+
 
                                         
                                   <p><p><p><p><p><hr>
