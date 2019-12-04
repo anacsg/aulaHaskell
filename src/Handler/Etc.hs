@@ -25,6 +25,6 @@ getEtcR = do
         [whamlet|
             
             <h1>
-                bla bla bla bla
+                <img src="/static/Naruto.png" width="75" height="75">
                 
         |]
