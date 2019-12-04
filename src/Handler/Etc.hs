@@ -29,12 +29,6 @@ getEtcR = do
               padding: 0 4px;
             }
             
-            /* Create four equal columns that sits next to each other */
-            .column {
-              flex: 25%;
-              max-width: 10%;
-              padding: 0 4px;
-            }
             
             .column img {
               width: 100%;

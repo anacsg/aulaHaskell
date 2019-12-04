@@ -73,8 +73,10 @@ postSairR = do
 getAdminR :: Handler Html
 getAdminR = do 
     defaultLayout [whamlet|
-        <h1>
-            BEM-VINDO
+        <h1>Bem-vindo!
+            Você está logado como admin.<br>
+            Menu: <a href="@{ListNewsletterR}">Lista de e-mails</a> | <a href="@{SairR}">Sair</a>
+            
     |]
 
 
