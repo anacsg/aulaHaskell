@@ -22,9 +22,50 @@ getEtcR = do
         -- esta no projeto
         addStylesheet (StaticR css_bootstrap_css)
         sess <- lookupSession "_NOME"
-        [whamlet|
+        toWidgetHead [lucius|
+            /* Common styles for all types */
+            .bs-callout {
+              padding: 20px;
+              margin: 20px 0;
+              border: 1px solid #eee;
+              border-left-width: 5px;
+              border-radius: 3px;
+            }
             
-            <h1>
-                <img src="/static/Naruto.png" width="75" height="75">
+            .bs-callout p:last-child {
+              margin-bottom: 0;
+            }
+            
+            .bs-callout-info {
+              border-left-color: #1b809e;
+            }
+            
+            /* Space things out */
+            .bs-docs-section {
+              margin-bottom: 60px;
+            }
+            .bs-docs-section:last-child {
+              margin-bottom: 0;
+            }
+            
+            /* Buttons */
+            .btn.btn-info.btn-lg {
+              background-color: #000000 !important;
+              border-color: #000000 !important;
+              font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+            }
+        |]
+        [whamlet|
+            <div .container>
+                <div .bs-docs-section>
+                    <div .row>
+                        <div .col-lg-12>
+                            <div .page-header>
+                            
+                                 <p>
+                                        <h1 #start>Etc
+                                        
+                                        <img src="/static/figurinhas/Naruto.png" width="75" height="75"> 
+                                        <img src="/static/figurinhas/fig2.png" width="75" height="75"> 
                 
         |]

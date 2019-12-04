@@ -112,16 +112,21 @@ getHomeR = do
             #message {
                 margin-bottom: 40px;
             }
-            
-            
-         
-            
-            
-            
-            
         |]
         [whamlet|
+            <nav .navbar.navbar-default.navbar-static-top>
+                <div .container>
+                    <div .navbar-header>
+                        <button type="button" .navbar-toggle.collapsed data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
             
+                    <div #navbar .collapse.navbar-collapse>
+                        <ul .nav.navbar-nav>
+                                <li :Just route == mcurrentRoute:.active>
+                                    <a href="@{route}">#{label}
             <div .masthead>
                 <div .container>
                     <div .row>
@@ -132,8 +137,6 @@ getHomeR = do
                             Inscreva-se na nossa newsletter!
             
             <div .container>
-                <!-- Starting
-                    ================================================== -->
                 <div .bs-docs-section>
                     <div .row>
                         <div .col-lg-12>

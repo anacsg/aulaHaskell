@@ -50,7 +50,7 @@ postEntrarR = do
                 Nothing -> do 
                     setMessage [shamlet|
                         <div>
-                            E-mail N ENCONTRADO!
+                            E-mail não cadastrado.
                     |]
                     redirect EntrarR
                 Just (Entity _ usu) -> do 
@@ -60,7 +60,7 @@ postEntrarR = do
                     else do 
                         setMessage [shamlet|
                             <div>
-                                Senha INCORRETA!
+                                Senha incorreta.
                         |]
                         redirect EntrarR 
         _ -> redirect HomeR
