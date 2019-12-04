@@ -156,7 +156,7 @@ getHomeR = do
                                         <a href="">Exemplo 2
                                     
                                     <li .list-group-item>
-                                        <a href="">Etc...
+                                        <a href="@{EtcR}">Etc...
                                     
             
                                    
