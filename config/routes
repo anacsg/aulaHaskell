@@ -15,5 +15,7 @@
 /newsletter/#NewsletterId/apagar ApagarNewsletterR POST
 
 /etc EtcR GET
+/animes AnimesR GET
+/league LeagueR GET
 
 
