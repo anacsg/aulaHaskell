@@ -28,6 +28,7 @@ getHomeR = do
             .masthead,
             .navbar {
                 background-color: #000000;
+                min-height: 50px;
             }
             
             .navbar-default .navbar-nav > .active > a {
