@@ -4,7 +4,7 @@
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE QuasiQuotes #-}
 {-# LANGUAGE TypeFamilies #-}
-module Handler.Etc where
+module Handler.League where
 
 import Import
 --import Network.HTTP.Types.Status
@@ -14,8 +14,8 @@ import Text.Julius
 
 
 
-getEtcR :: Handler Html
-getEtcR = do 
+getLeagueR :: Handler Html
+getLeagueR = do 
     defaultLayout $ do 
         -- remoto
         addScriptRemote "https://code.jquery.com/jquery-3.4.1.min.js"
@@ -39,7 +39,7 @@ getEtcR = do
         [whamlet|
 
                                  <p>
-                                        <h1>Etc
+                                        <h1>League
                                         
                                          <div class="row">
                                               <div class="column">
