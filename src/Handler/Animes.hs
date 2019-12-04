@@ -16,7 +16,8 @@ import Text.Julius
 
 getAnimesR :: Handler Html
 getAnimesR = do 
-    defaultLayout $ do 
+    defaultLayout $ do
+        setTitle "Animes"
         -- remoto
         addScriptRemote "https://code.jquery.com/jquery-3.4.1.min.js"
         -- esta no projeto
@@ -43,10 +44,38 @@ getAnimesR = do
                                         
                                          <div class="row">
                                               <div class="column">
-                                                <img src="/static/figurinhas/animes/Naruto.png" alt="Naruto" width="75" height="75">
+                                                <img src="/static/figurinhas/animes/an1.png" width="75" height="75">
                                               <div class="column">
-                                                <img src="/static/figurinhas/animes/fig1.png" alt="teste" width="75" height="75">
-
+                                                <img src="/static/figurinhas/animes/an2.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/animes/an3.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/animes/an4.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/animes/an5.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/animes/an6.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/animes/an7.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/animes/an8.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/animes/an9.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/animes/an10.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/animes/an11.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/animes/an12.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/animes/an13.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/animes/an14.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/animes/an15.png" width="75" height="75">
+                                                
+                  <p><p><p><p><p><hr>
+                     <a href="@{HomeR}">Voltar
                                         
                                         
                                         

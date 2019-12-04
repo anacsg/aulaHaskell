@@ -17,6 +17,7 @@ import Text.Julius
 getLeagueR :: Handler Html
 getLeagueR = do 
     defaultLayout $ do 
+        setTitle "League of Legends"
         -- remoto
         addScriptRemote "https://code.jquery.com/jquery-3.4.1.min.js"
         -- esta no projeto
@@ -43,11 +44,38 @@ getLeagueR = do
                                         
                                          <div class="row">
                                               <div class="column">
-                                                <img src="/static/figurinhas/Naruto.png" alt="Naruto" width="75" height="75">
+                                                <img src="/static/figurinhas/league/lol1.png" width="75" height="75">
                                               <div class="column">
-                                                <img src="/static/figurinhas/fig1.png" alt="teste" width="75" height="75">
+                                                <img src="/static/figurinhas/league/lol2.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/league/lol3.png" width="75" height="75">
+                                              <div class="column">
+                                                <img src="/static/figurinhas/league/lol4.png" width="75" height="75">
+                                              <div class="column">
+                                                <img src="/static/figurinhas/league/lol5.png" width="75" height="75">
+                                              <div class="column">
+                                                <img src="/static/figurinhas/league/lol6.png" width="75" height="75">
+                                              <div class="column">
+                                                <img src="/static/figurinhas/league/lol7.png" width="75" height="75">
+                                              <div class="column">
+                                                <img src="/static/figurinhas/league/lol8.png" width="75" height="75">
+                                              <div class="column">
+                                                <img src="/static/figurinhas/league/lol9.png" width="75" height="75">
+                                              <div class="column">
+                                                <img src="/static/figurinhas/league/lol10.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/league/lol11.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/league/lol12.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/league/lol13.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/league/lol14.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/league/lol15.png" width="75" height="75">
 
-                                        
+                     <p><p><p><p><p><hr>
+                     <a href="@{HomeR}">Voltar
                                         
                                         
                                         

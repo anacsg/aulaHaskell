@@ -17,6 +17,7 @@ import Text.Julius
 getEtcR :: Handler Html
 getEtcR = do 
     defaultLayout $ do 
+        setTitle "Etc"
         -- remoto
         addScriptRemote "https://code.jquery.com/jquery-3.4.1.min.js"
         -- esta no projeto
@@ -43,12 +44,29 @@ getEtcR = do
                                         
                                          <div class="row">
                                               <div class="column">
-                                                <img src="/static/figurinhas/Naruto.png" alt="Naruto" width="75" height="75">
+                                                <img src="/static/figurinhas/etc/e1.png" width="75" height="75">
                                               <div class="column">
-                                                <img src="/static/figurinhas/fig1.png" alt="teste" width="75" height="75">
+                                                <img src="/static/figurinhas/etc/e2.png" width="75" height="75">
+                                            <div class="column">
+                                                <img src="/static/figurinhas/etc/e3.png" width="75" height="75">
+                                            <div class="column">
+                                                <img src="/static/figurinhas/etc/e4.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/etc/e5.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/etc/e6.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/etc/e7.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/etc/e8.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/etc/e9.png" width="75" height="75">
+                                                <div class="column">
+                                                <img src="/static/figurinhas/etc/e10.png" width="75" height="75">
 
                                         
-                                        
+                                  <p><p><p><p><p><hr>
+                     <a href="@{HomeR}">Voltar      
                                         
                                         
                 
