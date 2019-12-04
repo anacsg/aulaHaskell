@@ -1,4 +1,4 @@
-<!-- Static navbar -->
+<!-- Static navbar --> 
 <nav .navbar.navbar-default.navbar-static-top>
     <div .container>
         <div .navbar-header>
