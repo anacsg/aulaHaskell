@@ -5,18 +5,10 @@
 
 / HomeR GET 
 
-
 /cadastro UsuarioR GET POST
 /entrar   EntrarR  GET POST
 /sair     SairR    POST
 /admin    AdminR   GET
-
-
-/serie    SerieR   GET POST
-
-
-/elenco/#SerieId  ElencoR  GET
-
 
 /newsletter     NewsletterR    GET POST
 /listar  ListNewsletterR GET

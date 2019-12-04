@@ -5,12 +5,6 @@ Usuario
     UniqueEmailIx email
     deriving Show
 
-Serie
-    nome  Text
-    ano   Int
-    pais  Text
-    deriving Show
-
 Newsletter 
     email  Text
     deriving Show
