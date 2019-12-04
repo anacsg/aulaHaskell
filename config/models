@@ -7,4 +7,5 @@ Usuario
 
 Newsletter 
     email  Text
+    UniqueEmail email
     deriving Show
